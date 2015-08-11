@@ -1,2 +1,5 @@
-# teaching-my-wife
-My wife wants to learn python :D.
+# Teaching Python to my Wife
+
+I will try to keep it updated with her codes and funny bugs.
+
+
