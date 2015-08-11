@@ -21,12 +21,6 @@ If the command succeeded now you are able to use the `pip` command. Test if you 
 pip is /usr/local/bin/pip
 ```
 
-If you are seeing this error message bellow something bad happend. Please contact the `it-team`.
-
-```shell
--bash: type: pip: not found
-```
-
 ## Pip Installs Packages (pip)
 
 Hey, so you have finished the first step, nice. Now let's learn a little bit about the `pip tool`. 
