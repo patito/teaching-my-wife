@@ -132,7 +132,7 @@ Installing setuptools, pip...done
 
 Now we have a virtual environment created, we have just to activate it. Let's do that now.
 
-To activate your environment do the command bellow.
+To activate your environment do the command below.
 
 ```shell
 $ source venv/bin/activate
@@ -157,15 +157,15 @@ Easy? :D
 
 ## Working with Git
 
-Hum, Do you know who is Linus Torvalds? He is an amazing guy, he is the Linux creator and maintainer. He also is creator of `git tool`. But what is `git`?  In a simple way it is a system to keep the activity history when we are developing a project.
+Hum, Do you know who is Linus Torvalds? He is an amazing guy, he is the Linux creator and maintainer. He also is creator of `git tool`. But what is `git`?  In a simple way, it is a system to keep the activity history when we are developing a project.
 
-If you want to start working in a project the first thing you have to do is clone the project. Look the example bellow.
+If you want to start working in a project, the first thing you have to do is clone the project. Look the example below.
 
 ```shell
 $ git clone git@github.com:patito/go-adventure.git
 ```
 
-Now we have cloned the project we can change it and start working. :D You can use `git status` to see your changes.
+Now we have cloned the project, we can change it and start working. :D You can use `git status` to see your changes.
 
 ```shell
 bane:go-adventure paulo$ git status
@@ -178,7 +178,7 @@ Changes not staged for commit:
 	modified:   list.go
 ```
 
-So I can see I have modified the file `list.go`. So we have to `add` this file, commit it and send to the server. Looks like complicated, but isn't.
+I can see that I have modified the file `list.go`. So we have to `add` this file, commit it and send to the server. Looks like complicated, but it is not.
 
 Adding a file.
 ```shell
