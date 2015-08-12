@@ -1,8 +1,8 @@
 # Starting
 
-Hi Grazzi,
+Hi Grazzi!
 
-if you are looking for a small tutorial about `pip`, `virtualenv` and `easy_install` tools, here is your place. Enjoy and try to not sleep while reading it. 
+If you are looking for a small tutorial about `pip`, `virtualenv` and `easy_install` tools, here is your place. Enjoy and try to not sleep while reading it. 
 
 ## What is `easy_install`?
 
