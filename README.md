@@ -8,13 +8,13 @@ If you are looking for a small tutorial about `pip`, `virtualenv` and `easy_inst
 
 Easy Install (easy_install) gives you a quick and painless way to install and manage python packages. It was released in 2004, as part of setuptools. If you don't have `pip tool` in your machine let's use `easy_install tool` to install it.
 
-With the command bellow we can easily install `pip`. Remember you have to be `root` or use `sudo` before the command.
+With the command below we can easily install `pip`. Remember, you have to be `root` or use `sudo` before the command.
 
 ```shell
 # easy_install pip
 ```
 
-If the command succeeded now you are able to use the `pip` command. Test if you can find the command in your machine.
+If the command succeeded, you are now able to use the `pip` command. Make a test to see if you can find the command in your machine.
 
 ```shell
 # type pip
@@ -23,17 +23,17 @@ pip is /usr/local/bin/pip
 
 ## Pip Installs Packages (pip)
 
-Hey, so you have finished the first step, nice. Now let's learn a little bit about the `pip tool`. 
+Hey, so you have finished the first step, good! Now let's learn a little bit about the `pip tool`. 
 
 ### What is `pip`?
 
-As you can see **PIP** is an acronym recursive that means **Pip Installs Packages**. It is another tool to manage python packages and it is widely used by python developers. If you want to read mored about this amazing tool you can read the [official site](https://pip.pypa.io/en/stable/).
+As you can see **PIP** is a recursive acronym that means **Pip Installs Packages**. It is another tool to manage python packages and it is widely used by python developers. If you want to read mored about this amazing tool you can read the [official site](https://pip.pypa.io/en/stable/).
 
 ### How to use `pip`?
 
-Pip is a really easy command and is generally used when you need to install a library, framework or any other dependency to your project.
+Pip is a real easy command and is generally used when you need to install a library, framework or any other dependency to your project.
 
-First command you shoud try is `help`. If you are not using a `virtual environments` you have to be user to install packages.
+First command you should try is `help`. If you are not using a `virtual environment` you have to be user to install packages.
 
 ```shell
 bane:~ paulo$ pip -h
@@ -52,7 +52,7 @@ Commands:
   help   
 ```
 
-As you can see it is possible to install, uninstall, search, list and other management using the command `pip`. Now free your mind and use it.
+As you can see it is possible to install, uninstall, search, list and do  other management using the command `pip`. Now free your mind and use it.
 
 If we want to search the package called `requests`.
 
@@ -74,7 +74,7 @@ You should do that with all packages you want to install.
 
 ### Requeriments File
 
-If you have a project and in this project you have some requeriments, so you can create a file called `requeriments.txt` and inside the file you can add all packages you need.
+If you have a project and in this project you have some requirements, so you can create a file called `requirements.txt` and inside the file you can add all packages you need.
 
 Look an example of this file.
 
@@ -84,13 +84,13 @@ seaborn
 requests
 ```
 
-Now you can install all requeriments using only one command.
+Now you can install all requirements using only one command.
 
 ```shell
-$ sudo pip install -r requeriments.txt
+$ sudo pip install -r requirements.txt
 ```
 
-If you have all requeriments installed in your machine it is possible generate the `requeriments.txt` file.
+If you have all requirements installed in your machine, it is possible to generate the `requirements.txt` file.
 
 ```shell
 $ pip freeze > requeriments.txt
@@ -100,13 +100,13 @@ Nice uhm? :D
 
 ## Virtual Environments
 
-A lot of developers don't like to use virtual envinronments, honestly I don't know why. It is to use and keep your system healthy.
+A lot of developers don't like to use virtual environments, honestly I don't know why. It is to use and keep your system healthy.
 
 ### What is it?
 
 Imagine this situation. You are working in a Project X and you need a library version 1.1, so you install this library in your system, but next month you will work in a Project Z and you need a different version of the same library. What you gonna do?
 
-Virtual environments solves this kind of problems, it keeps the dependencies required by different projects in separate places, by creating virtual Python environments for them.
+Virtual environments solve this kind of problems, they keep the dependencies required by different projects in separate places, by creating virtual Python environments for each of them.
 
 ### How to install it?
 
