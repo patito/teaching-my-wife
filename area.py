@@ -5,3 +5,4 @@ def area(raio):
     return math.pi * raio ** 2
 
 print (area(2))
+print (area(4))
