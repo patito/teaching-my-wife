@@ -24,11 +24,9 @@ def all_in_one():
         
         try:
             num = int(num)
-
         except:
             print('Invalid input')
             break;
-
 
         total = total + int(num)
         count =  count + 1
